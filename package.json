@@ -1,9 +1,9 @@
 {
     "scripts": {
-        "install": "./bin/install",
         "test": "./bin/test"
     },
     "dependencies": {
-        "bash.origin": "0.1.x"
+        "bash.origin": "0.1.x",
+        "pinf.sh": "0.1.x"
     }
 }
