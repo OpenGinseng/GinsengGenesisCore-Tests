@@ -1,0 +1,18 @@
+{
+    "@schema": "http://schema.pinf.sh/PINF.json/0",
+    "@extends": {
+        "io.ginseng.genesis.open.core/PINF.proto.json": "https://github.com/OpenGinseng/GinsengGenesisCore/blob/master/PINF.proto.json"
+    },
+    "config": {
+        "ScriptedCloud.PINF.Tools/0": {
+            "topLevelDomain": "ginseng.io",
+            "hostname": "{{env.PGS_WORKSPACE_UID}}.tests.core.open.genesis.ginseng.io",
+            "dirname": "tests.core.open.genesis.ginseng.io~{{env.PGS_WORKSPACE_UID}}",
+            "privateKeyPath": "{{env.HOME}}/.ssh/tests.core.open.genesis.ginseng.io-{{env.PGS_WORKSPACE_UID}}.rsa"
+        }
+    },
+    "mappings": {},
+    "@overlays": [
+        "{{env.PIO_PROFILE_PATH}}"
+    ]
+}

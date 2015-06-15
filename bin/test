@@ -8,7 +8,8 @@ function init {
 
 
 	pushd "$__BO_DIR__/.." > /dev/null
-		"$__BO_DIR__/../node_modules/pinf.sh/pinf.sh"
+		"$__BO_DIR__/../node_modules/pinf.sh/pinf.sh" \
+			"https://github.com/OpenGinseng/GinsengGenesisCore/blob/master/smi.json"
 	popd > /dev/null
 }
 init $@
