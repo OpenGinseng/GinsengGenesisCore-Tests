@@ -7,8 +7,8 @@ function init {
 	local __BO_DIR__="$___TMP___"
 
 
-	pushd "$__BO_DIR__/.." > /dev/null
-		"$__BO_DIR__/../node_modules/pinf.sh/pinf.sh" \
+	pushd "$__BO_DIR__" > /dev/null
+		"$__BO_DIR__/node_modules/pinf.sh/pinf.sh" \
 			"https://github.com/OpenGinseng/GinsengGenesisCore/blob/master/smi.json"
 	popd > /dev/null
 }

@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "test": "./bin/test -vd"
+        "test": "./test.sh -vd"
     },
     "dependencies": {
         "bash.origin": "0.1.x",
