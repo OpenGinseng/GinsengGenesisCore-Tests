@@ -2,4 +2,6 @@
 /.smi-for-npm
 /PINF.local.json
 /package.local.json
-/.deps/
+/.deps
+/boot
+/.pgs
