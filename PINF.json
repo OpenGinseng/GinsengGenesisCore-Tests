@@ -1,7 +1,9 @@
 {
     "@schema": "http://schema.pinf.sh/PINF.json/0",
     "@extends": {
-        "io.ginseng.genesis.open.core/PINF.proto.json": "https://github.com/OpenGinseng/GinsengGenesisCore/blob/master/PINF.proto.json"
+        "io.ginseng.genesis.open.core/PINF.proto.json": {
+            "location": "https://github.com/OpenGinseng/GinsengGenesisCore/blob/master/PINF.proto.json"
+        }
     },
     "config": {
         "ScriptedCloud.PINF.Tools/0": {
