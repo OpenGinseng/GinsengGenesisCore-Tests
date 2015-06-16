@@ -7,6 +7,8 @@ function init {
 	local __BO_DIR__="$___TMP___"
 
 
+	rm -Rf "bin" > /dev/null || true
+	rm -Rf "etc" > /dev/null || true
 	rm -Rf ".deps" > /dev/null || true
 	rm -Rf ".pinf" > /dev/null || true
 	rm -Rf ".pgs" > /dev/null || true
