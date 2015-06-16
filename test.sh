@@ -9,7 +9,9 @@ function init {
 
 	pushd "$__BO_DIR__" > /dev/null
 		"$__BO_DIR__/node_modules/pinf.sh/pinf.sh" \
-			"https://github.com/OpenGinseng/GinsengGenesisCore/blob/master/smi.json"
+			"https://github.com/OpenGinseng/GinsengGenesisCore/blob/master/smi.json" \
+			"!$__BO_DIR__/../io.ginseng.genesis.open.core/PINF.proto.json"
 	popd > /dev/null
+
 }
 init $@
