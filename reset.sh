@@ -7,7 +7,9 @@ function init {
 	local __BO_DIR__="$___TMP___"
 
 
-	bin/clean || true
+	if [ -f "bin/clean" ]; then
+		bin/clean || true
+	fi
 
 	rm -Rf "bin" > /dev/null || true
 	rm -Rf "etc" > /dev/null || true
@@ -18,9 +20,9 @@ function init {
 	rm -Rf *.local.json > /dev/null || true
 
 	rm -Rf ".cleanignore" > /dev/null || true
-	rm -Rf ".ditignore" > /dev/null || true
+	rm -Rf ".distignore" > /dev/null || true
 	rm -Rf "io.ginseng.genesis.open.core.tests.inf" > /dev/null || true
-	rm -Rf "io.ginseng.genesis.open.core.tests.js" > /dev/null || true
+	rm -Rf "io.ginseng.genesis.open.core.tests.inf.js" > /dev/null || true
 	rm -Rf "program.json" > /dev/null || true
 	rm -Rf "smi.json" > /dev/null || true
 	rm -Rf "vortex.js" > /dev/null || true
