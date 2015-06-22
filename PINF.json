@@ -5,6 +5,9 @@
             "location": "https://github.com/OpenGinseng/GinsengGenesisCore/blob/master/PINF.proto.json"
         }
     },
+    "boot": {
+        "config": "ScriptedCloud.PINF.Tools/boot/0"
+    },    
     "config": {
         "ScriptedCloud.PINF.Tools/0": {
             "topLevelDomain": "ginseng.io",
